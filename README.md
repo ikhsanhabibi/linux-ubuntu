@@ -4,12 +4,13 @@
 
 - Update kernel Linux : http://ubuntuhandbook.org/index.php/2020/02/ubuntu-18-04-4-released-kernel-5-3/
 
-- Paste : Ctrl + shift + V
-- Editor : Windows + E
-- Finder: windows + R
-- File manager: Windows + F
-
-- Make file xecutable: chmod +x filename.sh
+```
+Paste : Ctrl + shift + V
+Editor : Windows + E
+Finder: windows + R
+File manager: Windows + F
+Make file xecutable: chmod +x filename.sh
+```
 
 ## Installation
 - IntelliJ : sudo snap install intellij-idea-community --classic OR sudo snap install intellij-idea-ultimate --classic
