@@ -1,3 +1,49 @@
 # linux-ubuntu
 
+Update kernel Linux : http://ubuntuhandbook.org/index.php/2020/02/ubuntu-18-04-4-released-kernel-5-3/
+
+Paste : Ctrl + shift + V
+Editor : Windows + E
+Finder: windows + R
+File manager: Windows + F
+
+Make file xecutable: chmod +x filename.sh
+
+## Installation
+IntelliJ : sudo snap install intellij-idea-community --classic
+sudo snap install intellij-idea-ultimate --classic
+DataGrip:  sudo snap install datagrip --classic
+Postgres 11: https://pgdash.io/blog/postgres-11-getting-started.html
+
+Git: https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/
+GitHub: https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Add%20your%20public%20key%20to%20GitHub&text=Select%20SSH%20Keys%20from%20the,your%20github%20password%20if%20prompted.
+
+DisplayLink: https://support.displaylink.com/knowledgebase/articles/684649-how-to-install-displaylink-software-on-legacy-ubun
+
+Unzip: sudo apt-get install unzip | unzip file.zip
+
+
+## Java on Linux Ubuntu
+
+Installer: https://oraclemirror.np.gy/jdk8/
+           https://oraclemirror.np.gy/jre8/
+
+How to install: https://www.youtube.com/watch?v=Zp10aJqj51M
+
+Script
+
+And below there are commands from the film that i use:
+/usr/lib/jvm/jdk1.8.0_231/bin:/usr/lib/jvm/jdk1.8.0_231/jre/bin
+J2SDKDIR="/usr/lib/jvm/jdk1.8.0_231"
+J2REDIR="/usr/lib/jvm/jdk1.8.0_231/jre"
+JAVA_HOME="/usr/lib/jvm/jdk1.8.0_231"
+
+
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_231/bin/java" 0
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_231/bin/javac" 0
+sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_231/bin/java
+sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
+
+
+## Settings
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
