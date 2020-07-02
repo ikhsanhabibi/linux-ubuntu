@@ -50,3 +50,6 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
 - Get Night Shift Feature: https://itsfoss.com/night-shift-flux-ubuntu-linux/
 
+
+## IntelliJ
+- Code blocks sorter: sort methods, variables, => right click then sort by alphabet : https://plugins.jetbrains.com/plugin/9450-code-blocks-sorter
