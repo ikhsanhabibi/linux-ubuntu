@@ -25,6 +25,8 @@ Make file xecutable: chmod +x filename.sh
 - Unzip: sudo apt-get install unzip | unzip file.zip
 
  - NodeJS : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
+ 
+- Evolution
 
 
 ## Java on Linux Ubuntu
@@ -50,7 +52,6 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
 
 ## Settings
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
-
 - Get Night Shift Feature: https://askubuntu.com/questions/977221/how-do-i-enable-night-mode-in-display-of-xubuntu
 
 
