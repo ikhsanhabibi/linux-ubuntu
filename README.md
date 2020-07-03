@@ -24,6 +24,8 @@ Make file xecutable: chmod +x filename.sh
 
 - Unzip: sudo apt-get install unzip | unzip file.zip
 
+ - NodeJS : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
+
 
 ## Java on Linux Ubuntu
 
@@ -49,11 +51,12 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
 ## Settings
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
 
+- Get Night Shift Feature: https://askubuntu.com/questions/977221/how-do-i-enable-night-mode-in-display-of-xubuntu
 
-- Get Night Shift Feature: https://itsfoss.com/night-shift-flux-ubuntu-linux/
-- https://askubuntu.com/questions/977221/how-do-i-enable-night-mode-in-display-of-xubuntu
-- 
 
+## Translator
+DeepL : https://www.deepl.com/translator
 
 ## IntelliJ
 - Code blocks sorter: sort methods, variables, => right click then sort by alphabet : https://plugins.jetbrains.com/plugin/9450-code-blocks-sorter
+- IntelliJ Keyboard Shortcuts : https://medium.com/better-programming/intellij-keyboard-shortcuts-to-swear-by-7638c0efcc76
