@@ -61,3 +61,7 @@ DeepL : https://www.deepl.com/translator
 ## IntelliJ
 - Code blocks sorter: sort methods, variables, => right click then sort by alphabet : https://plugins.jetbrains.com/plugin/9450-code-blocks-sorter
 - IntelliJ Keyboard Shortcuts : https://medium.com/better-programming/intellij-keyboard-shortcuts-to-swear-by-7638c0efcc76
+```
+Ctrl + E (Recent Files pop-up).
+
+```
