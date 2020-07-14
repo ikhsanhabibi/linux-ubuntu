@@ -53,6 +53,8 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
 ## Settings
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
 - Get Night Shift Feature: https://askubuntu.com/questions/977221/how-do-i-enable-night-mode-in-display-of-xubuntu
+- Chrome: https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/
+- spotify : https://itsfoss.com/install-spotify-ubuntu-linux/
 
 
 ## Translator
@@ -65,3 +67,6 @@ DeepL : https://www.deepl.com/translator
 Ctrl + E (Recent Files pop-up).
 
 ```
+
+## Sony Vaio settings
+- Brightness: https://askubuntu.com/questions/266601/sony-vaio-brightness-settings-not-changing
