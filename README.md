@@ -70,3 +70,6 @@ Ctrl + E (Recent Files pop-up).
 
 ## Sony Vaio settings
 - Brightness: https://askubuntu.com/questions/266601/sony-vaio-brightness-settings-not-changing
+
+## WIFI Problem
+- https://askubuntu.com/questions/769521/wifi-networks-are-not-showing-in-ubuntu-16-04
