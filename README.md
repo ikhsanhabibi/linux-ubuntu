@@ -73,3 +73,6 @@ Ctrl + E (Recent Files pop-up).
 
 ## WIFI Problem
 - https://askubuntu.com/questions/769521/wifi-networks-are-not-showing-in-ubuntu-16-04
+
+GIF file
+- sudo apt install peek
