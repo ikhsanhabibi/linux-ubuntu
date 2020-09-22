@@ -76,3 +76,7 @@ Ctrl + E (Recent Files pop-up).
 
 GIF file
 - sudo apt install peek
+
+Pass
+- sudo apt-get install keepass2
+
