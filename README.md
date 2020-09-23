@@ -83,3 +83,6 @@ Pass
 # Gitignore generator
 - https://www.toptal.com/developers/gitignore
 
+# Intsall Blender (AutoDesk look a alike)
+- https://linuxconfig.org/how-to-install-blender-on-ubuntu-20-04-focal-fossa-linux-desktop
+
