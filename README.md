@@ -80,3 +80,6 @@ GIF file
 Pass
 - sudo apt-get install keepass2
 
+# Gitignore generator
+- https://www.toptal.com/developers/gitignore
+
