@@ -76,6 +76,7 @@ Ctrl + E (Recent Files pop-up).
 
 GIF file
 - sudo apt install peek
+- Windows: https://www.screentogif.com/
 
 Pass
 - sudo apt-get install keepass2
