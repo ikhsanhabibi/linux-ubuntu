@@ -91,3 +91,4 @@ Pass
 
 ### VM
 - Shared folder: https://www.youtube.com/watch?v=fmjwM2P2cjs
+- How to Enable Copy and Paste in a VirtualBox Running Ubuntu Linux: https://www.youtube.com/watch?v=8MiPmL0YaJk
