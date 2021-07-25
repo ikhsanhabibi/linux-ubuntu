@@ -87,3 +87,7 @@ Pass
 # Intsall Blender (AutoDesk look a alike)
 - https://linuxconfig.org/how-to-install-blender-on-ubuntu-20-04-focal-fossa-linux-desktop
 
+
+
+### VM
+- Shared folder: https://www.youtube.com/watch?v=fmjwM2P2cjs
