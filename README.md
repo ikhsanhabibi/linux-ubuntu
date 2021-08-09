@@ -146,3 +146,7 @@ Pass
 ```
 
 
+## Dual boot
+- How to Dual Boot Ubuntu 20.04 LTS and Windows 10: https://www.youtube.com/watch?v=Z-Hv9hOaKso
+- How to Dual Boot Ubuntu 20.04 LTS and Windows 10 [ 2020 ] | UEFI - GPT Method: https://www.youtube.com/watch?v=aKKdiqVHNqw
+
