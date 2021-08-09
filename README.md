@@ -53,12 +53,48 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_231/bin/javac
 ## Settings
 - How to Adjust or Increase Mouse Scroll Wheel Speed in Linux : https://www.youtube.com/watch?v=UE_CVr_SOOE
 - Get Night Shift Feature: https://askubuntu.com/questions/977221/how-do-i-enable-night-mode-in-display-of-xubuntu
+
+```
+Install redshift
+
+sudo apt-get install redshift redshift-gtk
+
+Edit GeoClue's config
+
+sudo nano /etc/geoclue/geoclue.conf
+
+Append the following lines to /etc/geoclue/geoclue.conf
+
+[redshift]
+allowed=true
+system=false
+users=
+
+ctrl+o to save and ctrl+x to exit
+ 
+Configure redshift
+
+Example of a manual config, for Copenhagen, Denmark. See Redshift homepage for an additional config example. Comment out or change the latitude and longitude for you location.
+nano ~/.config/redshift.conf
+
+[redshift]
+temp-day=6500
+temp-night=3700
+location-provider=manual
+
+[manual]
+lat=55.7
+lon=13.4
+```
+
 - Chrome: https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+
 - spotify : https://itsfoss.com/install-spotify-ubuntu-linux/
 
-
-## Translator
-DeepL : https://www.deepl.com/translator
 
 ## IntelliJ
 - Code blocks sorter: sort methods, variables, => right click then sort by alphabet : https://plugins.jetbrains.com/plugin/9450-code-blocks-sorter
@@ -88,14 +124,14 @@ Pass
 - https://linuxconfig.org/how-to-install-blender-on-ubuntu-20-04-focal-fossa-linux-desktop
 
 
-
 ### VM
 - Shared folder: https://www.youtube.com/watch?v=fmjwM2P2cjs
 - How to Enable Copy and Paste in a VirtualBox Running Ubuntu Linux: https://www.youtube.com/watch?v=8MiPmL0YaJk
 
-
-
 ## Customization
+
+- KeePass2 : ```sudo apt-get install keepass2```
+
 - Opening start menu with the Windows key in Xubuntu: https://www.phpdeveloper.org.uk/opening-start-menu-with-the-windows-key-in-xubuntu/
 ```
 - Open the Keyboard application (Start menu -> Keyboard).
