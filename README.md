@@ -152,6 +152,7 @@ Pass
 
 
 # Hibernate
+- how to enable hibernate?: https://askubuntu.com/questions/462472/xubuntu-14-04-how-to-enable-hibernate
 ```
 Just press Ctrl+Alt+T on your keyboard to open Terminal. When it opens, run the command(s) below:
 
