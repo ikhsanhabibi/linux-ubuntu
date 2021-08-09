@@ -74,12 +74,13 @@ ctrl+o to save and ctrl+x to exit
  
 Configure redshift
 
-Example of a manual config, for Copenhagen, Denmark. See Redshift homepage for an additional config example. Comment out or change the latitude and longitude for you location.
+Example of a manual config, for Copenhagen, Denmark. See Redshift homepage for an additional config example.
+Comment out or change the latitude and longitude for you location.
 nano ~/.config/redshift.conf
 
 [redshift]
-temp-day=6500
-temp-night=3700
+temp-day=3500
+temp-night=1700
 location-provider=manual
 
 [manual]
@@ -93,7 +94,10 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
-- spotify : https://itsfoss.com/install-spotify-ubuntu-linux/
+- Spotify
+```
+snap install spotify
+```
 
 
 ## IntelliJ
