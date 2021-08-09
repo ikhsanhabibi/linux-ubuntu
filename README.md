@@ -92,3 +92,17 @@ Pass
 ### VM
 - Shared folder: https://www.youtube.com/watch?v=fmjwM2P2cjs
 - How to Enable Copy and Paste in a VirtualBox Running Ubuntu Linux: https://www.youtube.com/watch?v=8MiPmL0YaJk
+
+
+
+## Customization
+- Opening start menu with the Windows key in Xubuntu: https://www.phpdeveloper.org.uk/opening-start-menu-with-the-windows-key-in-xubuntu/
+```
+- Open the Keyboard application (Start menu -> Keyboard).
+- Switch to the Application Shortcuts tab.
+- Click the Add button (Edit only allows you to change the command, not the shortcut).
+- Enter xfce4-popup-whiskermenu as the command.
+- When prompted, press the Windows key – it will usually show up as Super L.
+```
+
+
