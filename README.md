@@ -150,3 +150,20 @@ Pass
 - How to Dual Boot Ubuntu 20.04 LTS and Windows 10: https://www.youtube.com/watch?v=Z-Hv9hOaKso
 - How to Dual Boot Ubuntu 20.04 LTS and Windows 10 [ 2020 ] | UEFI - GPT Method: https://www.youtube.com/watch?v=aKKdiqVHNqw
 
+
+# Hibernate
+```
+Just press Ctrl+Alt+T on your keyboard to open Terminal. When it opens, run the command(s) below:
+
+sudo nano /var/lib/polkit-1/localauthority/10-vendor.d/com.ubuntu.desktop.pkla
+
+Look for
+
+[Disable hibernate by default in upower]
+[Disable hibernate by default in logind]
+
+Change the value of "ResultActive=no" to "ResultActive=yes" in both, 
+press ctrl+x to exit the file. It will ask to save the change or not.
+Press Y to save the change, if you're on Ubuntu restart your system.
+
+```
