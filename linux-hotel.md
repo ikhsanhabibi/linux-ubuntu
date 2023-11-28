@@ -392,3 +392,7 @@ Pack your home directory into an archive, and extract it to `/tmp/restore2` on t
 
 *     efficient usage of ssh
 *     useful tools for accessing the network ( wget, ... )
+
+# Linux Directory Structure 
+https://linuxhandbook.com/linux-directory-structure/
+![image](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/f57ec4fb-c8af-4db8-a112-4800a6992b6f)
