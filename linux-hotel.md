@@ -1,3 +1,6 @@
+https://wiki.lab.linuxhotel.de/
+https://lab.linuxhotel.de/customers
+
 # Special characters
 
 * `~` - the home directory
