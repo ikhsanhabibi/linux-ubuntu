@@ -2,7 +2,9 @@
 https://www.iodigital.com/nl/history/intracto/creating-debianubuntu-deb-packages
 
 ## Required files under debian folder
-There are a number of files in this directory that we should edit in order to customize the behavior of the package. The most important of them are control, changelog, copyright, and rules, which are required for all packages. 
+There are a number of files in this directory that we should edit in order to customize the behavior of the package. The most important of them are control, changelog, copyright, and rules, which are required for all packages.
+https://www.debian.org/doc/manuals/maint-guide/dreq.en.html
+
 
 ## Debian control file
 https://www.debian.org/doc/debian-policy/ch-controlfields.html#s-binarycontrolfiles
