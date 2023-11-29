@@ -16,3 +16,6 @@ sudo apt list --installed
 ## Remove devian package
 dpkg --remove packagename
 
+## chmod
+![Screenshot from 2023-11-29 14-28-54](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/859f712c-995d-4136-b41e-22d8585c5370)
+https://www.shellbefehle.de/befehle/chmod/
