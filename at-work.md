@@ -31,3 +31,6 @@ https://www.shellbefehle.de/befehle/chmod/
 
 ## BASH - Bourne-again shell
 man bash
+
+## How To Find Last Logged In Users In Linux
+https://ostechnix.com/how-to-find-last-logged-in-users-in-linux/
