@@ -5,13 +5,15 @@ https://www.iodigital.com/nl/history/intracto/creating-debianubuntu-deb-packages
 There are a number of files in this directory that we should edit in order to customize the behavior of the package. The most important of them are control, changelog, copyright, and rules, which are required for all packages.
 https://www.debian.org/doc/manuals/maint-guide/dreq.en.html
 
-
 ## Debian control file
 https://www.debian.org/doc/debian-policy/ch-controlfields.html#s-binarycontrolfiles
 
+## Build debian package
+dpkg-deb --build helloworld
+
 ## Install debian package
 dpkg -i packagename
-sudo apt list --installed
+sudo apt list --installed | grep pakckage-name
 
 ## Remove devian package
 dpkg --remove packagename
