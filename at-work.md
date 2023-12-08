@@ -34,3 +34,15 @@ man bash
 
 ## How To Find Last Logged In Users In Linux
 https://ostechnix.com/how-to-find-last-logged-in-users-in-linux/
+
+## LDAP vs Active Directory
+https://rublon.com/blog/ldap-active-directory-difference/
+https://jumpcloud.com/blog/difference-between-ldap-openldap-active-directory
+
+|                  | LDAP 	       |  AD |
+|                  | ------------- | ------------- |
+Full Name          |	Lightweight Directory Access Protocol      |	Active Directory
+Function           |	Protocol 	                                  |Directory Services Provider (Directory Server)
+Standard           |  Open-Source 	Proprietary
+Supported Systems  | 	Cross-Platform: Windows, Linux, macOS 	For Windows users and applications
+Primary Use 	Querying and modifying items in Directory Services Providers 	Providing authentication, policies, group and user management, and many other services in the form of a directory database
