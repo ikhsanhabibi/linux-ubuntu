@@ -9,16 +9,21 @@ https://www.debian.org/doc/manuals/maint-guide/dreq.en.html
 https://www.debian.org/doc/debian-policy/ch-controlfields.html#s-binarycontrolfiles
 
 ## Build debian package
+```
 dpkg-deb --build helloworld
+```
 
 ## Install debian package
+```
 dpkg -i packagename
 sudo apt list --installed | grep pakckage-name
 dpkg-query --list
-
+```
 
 ## Remove devian package
+```
 dpkg --remove packagename
+```
 
 ## chmod
 ![Screenshot from 2023-11-29 14-28-54](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/859f712c-995d-4136-b41e-22d8585c5370)
