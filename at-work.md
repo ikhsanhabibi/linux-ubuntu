@@ -14,6 +14,8 @@ dpkg-deb --build helloworld
 ## Install debian package
 dpkg -i packagename
 sudo apt list --installed | grep pakckage-name
+dpkg-query --list
+
 
 ## Remove devian package
 dpkg --remove packagename
