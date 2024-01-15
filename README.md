@@ -168,3 +168,7 @@ press ctrl+x to exit the file. It will ask to save the change or not.
 Press Y to save the change, if you're on Ubuntu restart your system.
 
 ```
+## You can stop recording at any time by pressing the screencast shortcut combo again:
+
+```Ctrl + Alt + Shift + R```
+
