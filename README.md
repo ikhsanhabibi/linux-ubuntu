@@ -169,6 +169,7 @@ Press Y to save the change, if you're on Ubuntu restart your system.
 
 ```
 ## You can stop recording at any time by pressing the screencast shortcut combo again:
+https://www.omgubuntu.co.uk/2018/06/gnome-shell-screen-recorder-ubuntu
 
 ```Ctrl + Alt + Shift + R```
 
