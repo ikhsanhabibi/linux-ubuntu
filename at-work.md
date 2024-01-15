@@ -20,7 +20,7 @@ sudo apt list --installed | grep pakckage-name
 dpkg-query --list
 ```
 
-## Remove devian package
+## Remove debian package
 ```
 dpkg --remove packagename
 ```
