@@ -2,6 +2,8 @@
 
 ## -- Syllabus --
 ### Module 1 – Understanding Linux Concepts
+- What Operating System
+![Screenshot from 2024-02-19 17-17-34](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/e9245f40-c280-4949-9475-d13680f45dc1)
 - What is Linux?
 - Everyday use of Linux
 - Unix vs. Linux
