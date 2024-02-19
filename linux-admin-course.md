@@ -4,13 +4,28 @@
 ### Module 1 – Understanding Linux Concepts
 - What Operating System
 ![Screenshot from 2024-02-19 17-17-34](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/e9245f40-c280-4949-9475-d13680f45dc1)
+
 - What is Linux?
 ![Screenshot from 2024-02-19 17-19-55](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/1bb3428b-243f-4e70-ad35-63db33a98903)
 ![Screenshot from 2024-02-19 17-20-16](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/fdbce4b7-fd1c-4a47-81bd-15d2746a6a7b)
 
+- History of Linux
+![Screenshot from 2024-02-19 17-22-11](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/a9978131-712c-4dca-94f7-d652be2ef28b)
   
 - Everyday use of Linux
 - Unix vs. Linux
+![Screenshot from 2024-02-19 17-22-38](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/fe2cbd3a-59ac-4b96-abbc-6f7b40bdef53)
+
+- Linux Flavours/distro
+  ![Screenshot from 2024-02-19 17-22-58](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/5f1aa6be-064c-4f53-bf8f-2b444da78ca7)
+
+- Linux users
+  ![Screenshot from 2024-02-19 17-23-33](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/804cf8c7-a525-49ab-b1b3-68519ec78b15)
+
+- Linux vs Windows
+  ![Screenshot from 2024-02-19 17-23-48](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/811d41d8-1677-479f-b3c8-fe239e8056df)
+
+
 - Quiz, Homework and Handouts
 
 ### Module 2 – Download, Install and Configure
