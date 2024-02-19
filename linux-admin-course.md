@@ -1,25 +1,27 @@
-##Linux Administration course
+## Linux Administration course
 
--- Syllabus --
-Module 1 – Understanding Linux Concepts
- What is Linux?
- Everyday use of Linux
- Unix vs. Linux
- Quiz, Homework and Handouts
-Module 2 – Download, Install and Configure
- What is Oracle Virtual Box?
- Downloading and Installing Oracle Virtual Box
- Creating virtual machine
- Linux Distributions
- Different way to install Linux
- Downloading and Installing Linux (CentOS)
- Redhat Linux installation (Optional)
- Linux Desktop (GUI)
- Virtual Machine Management
- Linux vs. Windows
- Who Uses Linux?
- Quiz, Homework and Handouts
-Module 3 – System Access and File System
+## -- Syllabus --
+### Module 1 – Understanding Linux Concepts
+- What is Linux?
+- Everyday use of Linux
+- Unix vs. Linux
+- Quiz, Homework and Handouts
+
+### Module 2 – Download, Install and Configure
+- What is Oracle Virtual Box?
+- Downloading and Installing Oracle Virtual Box
+- Creating virtual machine
+- Linux Distributions
+- Different way to install Linux
+- Downloading and Installing Linux (CentOS)
+- Redhat Linux installation (Optional)
+- Linux Desktop (GUI)
+- Virtual Machine Management
+- Linux vs. Windows
+- Who Uses Linux?
+- Quiz, Homework and Handouts
+
+### Module 3 – System Access and File System
  Accessing Linux system
  Download and install Putty
  New Network Commands (ifconfig and ip)
