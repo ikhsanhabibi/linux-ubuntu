@@ -5,6 +5,10 @@
 - What Operating System
 ![Screenshot from 2024-02-19 17-17-34](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/e9245f40-c280-4949-9475-d13680f45dc1)
 - What is Linux?
+![Screenshot from 2024-02-19 17-19-55](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/1bb3428b-243f-4e70-ad35-63db33a98903)
+![Screenshot from 2024-02-19 17-20-16](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/fdbce4b7-fd1c-4a47-81bd-15d2746a6a7b)
+
+  
 - Everyday use of Linux
 - Unix vs. Linux
 - Quiz, Homework and Handouts
