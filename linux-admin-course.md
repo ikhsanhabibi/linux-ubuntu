@@ -11,6 +11,38 @@
 
 - History of Linux
 ![Screenshot from 2024-02-19 17-22-11](https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/a9978131-712c-4dca-94f7-d652be2ef28b)
+
+History of Unix/Linux
+1965 Bell Laboratories joins with MIT and General Electric in the development effort for the new
+operating system, Multics, which would provide multi-user, multi-processor, and multi-level
+(hierarchical) file system, among its many forward-looking features.
+1969 AT&T was unhappy with the progress and drops out of the Multics project. Some of the Bell Labs
+programmers who had worked on this project, Ken Thompson, Dennis Ritchie, Rudd Canaday, and
+Doug McIlroy designed and implemented the first version of the Unix File System on a PDP-7 along with
+a few utilities. It was given the name UNIX by Brian Kernighan as a pun on Multics.
+1971 The system now runs on a PDP-11, with 16Kbytes of memory, including 8Kbytes for user programs
+and a 512Kbyte disk.
+Its first real use is as a text processing tool for the patent department at Bell Labs. That utilization justified
+further research and development by the programming group. UNIX caught on among programmers
+because it was designed with these features:
+• programmers environment
+• simple user interface
+• simple utilities that can be combined to perform powerful functions
+• hierarchical file system
+• simple interface to devices consistent with file format
+• multi-user, multi-process system
+• architecture independent and transparent to the user.
+1973 Unix is re-written mostly in C, a new language developed by Dennis Ritchie. Being written in this
+high-level language greatly decreased the effort needed to port it to new machines.
+1974 Thompson and Ritchie publish a paper in the Communications of the ACM describing the new Unix
+OS. This generates enthusiasm in the Academic community which sees a potentially great teaching tool
+for studying programming systems development. Since AT&T is prevented from marketing the product
+due to the 1956 Consent Decree they license it to Universities for educational purposes and to commercial
+entities.
+1977 There are now about 500 Unix sites world-wide.
+1980 BSD 4.1 (Berkeley Software Development)
+1983 SunOS, BSD 4.2, SysV
+
   
 - Everyday use of Linux
 - Unix vs. Linux
