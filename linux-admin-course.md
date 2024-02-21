@@ -106,6 +106,7 @@ world-wide.
   
   ```
   Commands:
+  Clear CD/DVD source on UMT
   ssh adminuser@192.168.64.4
   sudo apt update && sudo upgrade -y
   sudo apt install qemu-guest-agent spice-vdagent
