@@ -94,8 +94,9 @@ world-wide.
 - Creating virtual machine
 - Linux Distributions
 - Different way to install Linux
+  
 <img width="910" alt="Screenshot 2024-02-21 at 14 40 02" src="https://github.com/ikhsanhabibi/linux-ubuntu/assets/33756873/864435b3-b868-47fa-9fb7-941b0522469d">
-- 
+  
 - Downloading and Installing Linux (CentOS)
 - Redhat Linux installation (Optional)
 - Linux Desktop (GUI)
