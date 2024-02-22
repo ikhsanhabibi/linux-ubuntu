@@ -114,6 +114,7 @@ world-wide.
   sudo apt update && sudo upgrade -y
   sudo apt install qemu-guest-agent spice-vdagent
   sudo apt install ubuntu-desktop
+  Set network to VLAN network mode
   ```
 - Virtual Machine Management
 - Linux vs. Windows
