@@ -871,3 +871,50 @@ Logical Volume Manager (LVM)
 vgs — Display information about volume groups
 lvs — Display information about logical volumes
 
+## LVM
+
+### Physical Volume als Partition
+
+Partitionstyp auf LVM setzen:
+
+```plain
+Command (m for help): t
+Partition number (1-5, default 5): 5
+Partition type or alias (type L to list all): 43
+
+Changed type of partition 'Linux filesystem' to 'Linux LVM'.
+```
+
+### VG mit erstem LV erstellen
+
+```plain
+pvcreate /dev/sda5
+vgcreate vg-data /dev/sda5
+lvcreate -n movies -L 4g vg-data
+```
+
+### LV vergrößern
+
+Aufgabe: Vergrößert das LV movies so, dass es die gesamte VG einnimmt.
+
+Tipp: lv-TAB
+
+Ziel: `dd if=/dev/zero of="Toy Story.mp4" bs=1M count=4700` soll funktionieren
+
+```plain
+lvresize -l +100%FREE /dev/vg-data/movies
+resize2fs /dev/vg-data/movies
+```
+
+Oder: Dateisystem direkt mit resizen
+
+```plain
+lvresize -l +100%FREE -r /dev/vg-data/movies
+```
+
+### VG erweitern mit weiterer Partition
+
+Aufgabe: Fügt der VG ein weiteres PV hinzu und vergrößert dann das LV auf 15g.
+
+Tipp: fdisk, pvcreate, vgextend, lvextend
+
