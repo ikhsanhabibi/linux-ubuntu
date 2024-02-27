@@ -923,3 +923,8 @@ Aufgabe: Fügt der VG ein weiteres PV hinzu und vergrößert dann das LV auf 15g
 
 Tipp: fdisk, pvcreate, vgextend, lvextend
 
+
+
+##
+LVM, VG, PV
+https://www.tecmint.com/create-lvm-storage-in-linux/
