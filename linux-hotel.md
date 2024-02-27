@@ -893,6 +893,11 @@ vgcreate vg-data /dev/sda5
 lvcreate -n movies -L 4g vg-data
 ```
 
+format
+```
+mkfs.ext4 /dev/vg-data/movies
+```
+
 ### LV vergrößern
 
 Aufgabe: Vergrößert das LV movies so, dass es die gesamte VG einnimmt.
