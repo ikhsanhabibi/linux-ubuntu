@@ -866,3 +866,8 @@ mount img.disk /mnt
 if both folders (a b) are monted, the files will be override
 
 
+Logical Volume Manager (LVM)
+
+vgs — Display information about volume groups
+lvs — Display information about logical volumes
+
