@@ -60,7 +60,7 @@ htop, pcp-htop - interactive process viewer
 
 ```
 PID     Process ID
-USER
+USER    Owner of the process
 PRI     Priority
 N       Niceness
 S       Status
@@ -81,3 +81,63 @@ SHR     Shared Memory
 ```
 
 ps - report a snapshot of the current processes.
+
+
+jobs
+ctrl + z
+
+bg - background
+
+gzip < /dev/zero > /dev/zero
+
+gzip < /dev/zero > /dev/zero &
+
+
+built in command: help command, help fg, help bg
+
+type
+
+zstd more cpu capacity
+
+kill -l
+sigterrm
+sigkill
+sigstop - ctrl + z
+sigint - interrupt - ctrl + c
+sigcont - continue
+
+daemon
+
+
+killall
+
+pkill -x exact command
+
+pgrep -l process_name
+
+pgrep, pkill, pidwait - look up, signal, or wait for processes based on name and other attributes
+
+pstree  - display a tree of processes
+
+threads
+
+lsof - list open file
+
+File types: https://www.bogotobogo.com/Linux/linux_File_Types.php
+```
+- file
+d directory
+c character device file
+b block
+l systemlink
+p normal pipe
+s socket
+
+```
+
+find - search for files in a directory hierarchy
+
+find / /run/ -xdev -type p -ls 2>/dev/null
+find / /run/ -xdev -type s -ls 2>/dev/null
+
+how process can communicate? signale, pipes, ipc, shared memory
