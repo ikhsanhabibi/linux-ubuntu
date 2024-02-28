@@ -145,6 +145,8 @@ how process can communicate? signale, pipes, ipc, shared memory
 
 https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:bootloader
 
+uefi - shim - bootloader - kernel -init - dienst
+bios
 
 hostnamectl
 timedatectl
