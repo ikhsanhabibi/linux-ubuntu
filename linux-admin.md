@@ -1,4 +1,5 @@
-# linux admin
+
+how process can communicate? signale, pipes, ipc, shared memory
 
 ## Wednesday, 28.02.2024 
 
@@ -141,3 +142,14 @@ find / /run/ -xdev -type p -ls 2>/dev/null
 find / /run/ -xdev -type s -ls 2>/dev/null
 
 how process can communicate? signale, pipes, ipc, shared memory
+
+https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:bootloader
+
+
+hostnamectl
+timedatectl
+systemctl
+
+daemon
+services
+process
