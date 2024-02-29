@@ -290,7 +290,7 @@ ip address add 192.168.73.31/24 dev enp1s0f1
 
 watch -d ip neigbour
 
-wireshark
+wiresharka
 
 lsof -nPi - TCP UDP
 
@@ -306,3 +306,20 @@ nmcli c edit 0b4208d4-f0b9-430d-8778-87f48e5ec03e
 set 802-3-ethernet.mtu 1480
 save persistent
 activate
+
+
+interface
+nmtui
+
+nano /etc/NetworkManager/system-connections/linuxhotel.nmconnection
+
+journalctl -e
+journalctl -f
+journalctl -eu ssh.service
+
+
+apt-cache show package_name
+apt-cache list package_name
+
+journalctl --list-boots
+https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:journald
