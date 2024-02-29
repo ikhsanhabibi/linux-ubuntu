@@ -155,6 +155,8 @@ daemon
 services
 process
 
+https://help.interfaceware.com/v6/differences-between-processes-daemons-and-services
+
 ## Thursday, 29.02.2024 
 
 
@@ -175,6 +177,8 @@ usr is static
 /usr/bin - there are programms
 find / -xdev -type d -writable -prune -ls 2> /dev/null
 service: /var, /home, /usr
+
+fhs: https://de.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 
 administer /etc/group and /etc/gshadow
 gpasswd -a nutzer gruppe 
@@ -204,6 +208,40 @@ systemctl status cockpit
 systemctl cat cockpit
 systemctl list-dependencies
 
+systemd: https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:systemd
 
 fstrim - discard unused blocks on a mounted filesystem
 fstrim -av
+
+
+Hardware
+
+lsusb - list USB devices
+lspci - list all PCI devices
+
+modinfo - Show information about a Linux Kernel module
+modinfo bluetooth
+
+lsmod - Show the status of modules in the Linux Kernel
+modinfo - Show information about a Linux Kernel module
+dmseg - print or control the kernel ring buffer
+modprobe - Add and remove modules from the Linux Kernel
+
+put the usb stick
+udevadm monitor
+
+diff lsmod.vorher lsmod.nachher
+
+
+linux news: https://lwn.net/
+
+
+network: https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:udev
+apt install ethtool
+
+ethtool -i network_id
+
+
+udev - udev supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the /dev/ directory, or renames network interfaces.
+
+udevadm - udevadm expects a command and command specific options. It controls the runtime behavior of systemd-udevd, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
