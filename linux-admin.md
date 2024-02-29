@@ -323,3 +323,12 @@ apt-cache list package_name
 
 journalctl --list-boots
 https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:journald
+
+
+
+sudo -i
+
+webserver apache2: https://wiki.lab.linuxhotel.de/doku.php/lpi2:apache
+
+docker
+https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:docker
