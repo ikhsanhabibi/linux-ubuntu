@@ -245,3 +245,64 @@ ethtool -i network_id
 udev - udev supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the /dev/ directory, or renames network interfaces.
 
 udevadm - udevadm expects a command and command specific options. It controls the runtime behavior of systemd-udevd, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
+
+ip link - show / manipulate routing, network devices, interfaces and tunnels
+
+
+
+1. Betriebsystem
+device
+dirver
+network card
+
+ip link
+lsmod
+ethtool
+
+2. Ethernet,Wifi, PPP -> host to host
+paket
+switch
+mac addresse
+
+3. IP -> host to host
+ip address
+subnetz
+router
+
+4. TC, UDP -> process to process
+port
+
+lsof nPi
+nc
+
+
+5. dns,http, ssh
+
+submask
+192.168.y.x/24
+172.16-31.x.x/16
+10.x.x.x/8
+
+
+ip address del 192.168.1.231/24 dev enp1s0f1
+ip address add 192.168.73.31/24 dev enp1s0f1
+
+
+watch -d ip neigbour
+
+wireshark
+
+lsof -nPi - TCP UDP
+
+network: https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:netzwerk#dokuwiki__top
+
+
+nmcli c
+ip address show dev enp1s0f1
+nmcli c up 0b4208d4-f0b9-430d-8778-87f48e5ec03e
+nmcli c down 0b4208d4-f0b9-430d-8778-87f48e5ec03e
+
+nmcli c edit 0b4208d4-f0b9-430d-8778-87f48e5ec03e
+set 802-3-ethernet.mtu 1480
+save persistent
+activate
