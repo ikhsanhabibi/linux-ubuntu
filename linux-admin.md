@@ -155,6 +155,8 @@ daemon
 services
 process
 
+## Thursday, 29.02.2024 
+
 
 linus distro
 debian 5 years LTS
