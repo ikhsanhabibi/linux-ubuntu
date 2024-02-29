@@ -146,7 +146,6 @@ how process can communicate? signale, pipes, ipc, shared memory
 https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:bootloader
 
 uefi - shim - bootloader - kernel -init - dienst
-bios
 
 hostnamectl
 timedatectl
@@ -155,3 +154,54 @@ systemctl
 daemon
 services
 process
+
+
+linus distro
+debian 5 years LTS
+red hat 10 years LTS
+
+dpkg -s debian_package - description
+dpkg -s udisks2
+
+dpkg -L udisks2 | grep /man - documentation
+dpkg -L udisks2 | grep /doc - documentation
+dpkg -L udisks2 | grep /bin
+dpkg -L udisks2 | grep /etc - configuration
+
+
+usr is static
+/usr/bin - there are programms
+find / -xdev -type d -writable -prune -ls 2> /dev/null
+service: /var, /home, /usr
+
+administer /etc/group and /etc/gshadow
+gpasswd -a nutzer gruppe 
+
+less /etc/passwd
+less /etc/shadow
+less /etc/group
+
+SUID - Set user id
+-rwsr-xr-x 1 root root 68248 Mar 23  2023 /usr/bin/passwd
+
+print suid file - everyone can read and execute
+find / -xdev -type f -user root -perm /u+s -ls
+
+if it is not necessary, the remove the suid right
+
+man dpkg-statoverride  - the suid file will be override even after updates
+
+cockpit - Cockpit is a web accessible interactive admin interface for Linux machines. 
+apt show cockpit
+apt install cockpit
+
+check whether it is installed
+dpkg -s cockpit
+
+systemctl status cockpit
+systemctl cat cockpit
+systemctl list-dependencies
+
+
+fstrim - discard unused blocks on a mounted filesystem
+fstrim -av
