@@ -381,3 +381,34 @@ sudo tar -c /usr/share/ > share.tar
 
 use this, to changeto /usr, the zip it:
 sudo tar cC /usr share > share.tar
+
+compress 
+sudo tar -cC /usr/ share | gzip > share.tar
+
+compres gz
+sudo tar -cC /usr share | gzip > shre.tar.gz
+
+compress zstd
+sudo tar -cC /usr share | zstd > share.tar.zstd
+
+du - different file size
+du -sh share.tar /usr/share/
+
+time sh -c 'sudo tar -cC /usr share | gzip share.tar.gz'
+du -sh sh* /usr/share/
+
+grant user as admin
+gpasswd -a irvin admin
+
+compress share folder to local machine
+ssh ikhsan@notebook32 'sudo tar -cC /usr share | zstd '> share.tar.zstd
+
+
+extract the compressed file on the other server
+option1 - easy
+cat share.tar.zstd | ssh ikhsan@notebook32 'zstdcat | tar -x'
+
+option2 - hard
+ssh ikhsan@notebook32 'zstdcat | tar -x' < share.tar.zstd
+
+
