@@ -332,3 +332,21 @@ webserver apache2: https://wiki.lab.linuxhotel.de/doku.php/lpi2:apache
 
 docker
 https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:docker
+
+enter into docker container
+docker exec -it container_id /bin/bash
+
+docker run -it container_name bash
+
+docker- anwendungcontainer
+systemd-nspawn - betriebstystem container
+lxc - betriebstystem container
+
+flatpak
+https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:flatpak
+
+ssh
+ssh-keygen -t ed25519
+ssh-copy-id user@hostename
+
+ssh ikhsan@notebook36
