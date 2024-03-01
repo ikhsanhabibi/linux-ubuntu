@@ -400,15 +400,23 @@ du -sh sh* /usr/share/
 grant user as admin
 gpasswd -a irvin admin
 
-compress share folder to local machine
+compress 'share folder' to server
 ssh ikhsan@notebook32 'sudo tar -cC /usr share | zstd '> share.tar.zstd
 
 
-extract the compressed file on the other server
+extract the compressed file from local on the other server
 option1 - easy
 cat share.tar.zstd | ssh ikhsan@notebook32 'zstdcat | tar -x'
 
 option2 - hard
 ssh ikhsan@notebook32 'zstdcat | tar -x' < share.tar.zstd
 
+send backup to other server
+local compres -sending - decompress
 
+sudo tar -cC /usr share | zstd | ssh ikhsan@notebook32 'cat > share.tar.zstd'
+
+extract into other server
+ssh ikhsan@notebook32 'cat share.tar.zstd | zstdcat | tar -x'
+
+rsync
