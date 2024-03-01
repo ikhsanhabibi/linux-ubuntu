@@ -1,4 +1,7 @@
 
+ssh ikhsan@notebook36
+
+
 how process can communicate? signale, pipes, ipc, shared memory
 
 ## Wednesday, 28.02.2024 
@@ -35,7 +38,7 @@ groupadd groupdel groupmod
 nik                  x  1001   1002   Dominik George                      /home/nik                  /bin/bash
 ikhsan               x  1002   1008   Ikhsan Habibi                       /home/ikhsan               /bin/bash
 irvin                x  1003   1009   Irvin Lopez                         /home/irvin                /bin/bash
-martin               x  1004   1010   Martin                              /home/martin               /bin/bash
+martin               x  1004   1010   Martin Schlierf                     /home/martin               /bin/bash
 florian              x  1005   1011   Florian Hönig                       /home/florian              /bin/bash
 frank                x  1006   1012   Frank Pioch                         /home/frank                /bin/bash
 
@@ -290,7 +293,7 @@ ip address add 192.168.73.31/24 dev enp1s0f1
 
 watch -d ip neigbour
 
-wiresharka
+wireshark
 
 lsof -nPi - TCP UDP
 
@@ -324,7 +327,7 @@ apt-cache list package_name
 journalctl --list-boots
 https://wiki.lab.linuxhotel.de/doku.php/admin_grundlagen:journald
 
-
+## Friday, 01.03.2024 
 
 sudo -i
 
@@ -350,3 +353,31 @@ ssh-keygen -t ed25519
 ssh-copy-id user@hostename
 
 ssh ikhsan@notebook36
+
+
+agent not in root - ssh pub should be copied, and set a pasword
+passwd username
+ssh -A ikhsan@notebook36 - to Ingo
+shh ikhsan@notebook32 - to Irvin
+
+
+Jump
+ssh -J ikhsan@notebook36 ikhsan@notebook32
+
+
+package search
+apt search packagename
+apt-cache search packagename
+apt show packagename
+
+dpkg -S packagename
+
+sshfs
+sshfs ikhsan@notebook32: meine-datei/ - mount to other server
+
+tar
+instead the whole path to zip:
+sudo tar -c /usr/share/ > share.tar
+
+use this, to changeto /usr, the zip it:
+sudo tar cC /usr share > share.tar
